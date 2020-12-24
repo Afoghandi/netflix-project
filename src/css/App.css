@@ -1,0 +1,23 @@
+/*Global variables*/
+
+:root {
+    --main-red: rgba(211, 9, 19);
+    --main-dark: rgba(20, 20, 20);
+    --main-deep-dark: rgba(0, 0);
+    --main-grey: rgba(153, 153, 153);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica';
+    -webkit-font-smoothing: antlialiased;
+    background: var(--main-dark);
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
