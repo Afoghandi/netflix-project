@@ -1,5 +1,12 @@
 import styled from 'styled-components/macro';
 
+export const Item = styled.div `
+	display: flex;
+	border-bottom: 8px solid #222;
+	padding: 50px 5%5%;
+	color: white;
+	overflow: hidden;
+`;
 export const Inner = styled.div `
 	display: flex;
 	align-items: center;
@@ -30,13 +37,6 @@ export const Title = styled.h1 `
 	}
 `;
 
-export const Item = styled.div `
-	display: flex;
-	border-bottom: 8px solid #222;
-	padding: 50px 5%5%;
-	color: white;
-	overflow: hidden;
-`;
 export const SubTitle = styled.h2 `
 	font-size: 26px;
 	font-weight: normal;
@@ -49,4 +49,10 @@ export const Image = styled.img `
 	max-width: 100%;
 	height: auto;
 `;
-export const Container = styled.div ``;
+export const Container = styled.div `
+	@media (max-width: 1000px) {
+		${Item}:last-of-type h2 {
+			margin-bottom: 50px;
+		}
+	}
+`;
