@@ -3,7 +3,6 @@ import {
 	Container,
 	Inner,
 	Title,
-	Frame,
 	Item,
 	Header,
 	Body,
@@ -30,10 +29,6 @@ Accordion.Item = function AccordionItem({ children, ...restProps }) {
 			<Item {...restProps}>{children}</Item>
 		</ToggleContext.Provider>
 	);
-};
-
-Accordion.Frame = function AccordionFrame({ children, ...restProps }) {
-	return <Frame {...restProps}>{children} </Frame>;
 };
 
 Accordion.Header = function AccordionHeader({ children, ...restProps }) {
