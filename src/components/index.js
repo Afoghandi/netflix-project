@@ -15,3 +15,6 @@ from './header';
 
 export { default as Feature }
 from './feature';
+
+export { default as Form }
+from './form';
