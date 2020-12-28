@@ -38,8 +38,8 @@ Form.Link = function FormLink({ children, ...restProps }) {
 	return <Link {...restProps}>{children} </Link>;
 };
 
-Form.Input = function FormInput({ ...restProps }) {
-	return <Input {...restProps} />;
+Form.Input = function FormInput({ children, ...restProps }) {
+	return <Input {...restProps}>{children}</Input>;
 };
 
 Form.Submit = function FormSubmit({ children, ...restProps }) {
