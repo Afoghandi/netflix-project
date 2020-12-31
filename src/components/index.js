@@ -21,3 +21,6 @@ from './form';
 
 export { default as Profiles }
 from './profiles';
+
+export { default as Loading }
+from './loading';

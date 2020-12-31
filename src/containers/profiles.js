@@ -6,7 +6,7 @@ import { Profiles } from '../components';
 import logo from '../logo.svg';
 
 export function SelectProfileContainer({ user, setProfile }) {
-	console.log('user', user);
+	//console.log('user', user);
 	return (
 		<>
 			<Header bg={false}>
@@ -17,7 +17,14 @@ export function SelectProfileContainer({ user, setProfile }) {
 			<Profiles>
 				<Profiles.Title>Who's watching?</Profiles.Title>
 				<Profiles.List>
-					<Profiles.User>
+					<Profiles.User
+						onClick={() =>
+							setProfile({
+								displayName: user.displayName,
+								photoURL: user.photoURL,
+							})
+						}
+					>
 						<Profiles.Picture src={user.photoURL} />
 						<Profiles.Name>{user.displayName} </Profiles.Name>
 					</Profiles.User>
