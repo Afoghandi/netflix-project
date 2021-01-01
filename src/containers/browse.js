@@ -61,6 +61,7 @@ export function BrowseContainer({ slides }) {
 						get fee-free spending and cash withdrawals overseas, so if you
 						travel a lot, that's an added boon.
 					</Header.Text>
+					<Header.PlayButton>Play</Header.PlayButton>
 				</Header.Feature>
 			</Header>
 		</>
