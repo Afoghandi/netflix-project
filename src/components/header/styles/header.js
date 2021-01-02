@@ -5,12 +5,14 @@ export const Background = styled.div`
 	display: flex;
 	flex-direction: column;
 	background: url(${({ src }) =>
-			src ? `../images/misc/${src}.jpg` : '../images/misc/home-bg.jpg'})
+			src ? `../images/misc/${src}.jpg ` : '../images/misc/home-bg.jpg'})
 		top left / cover no-repeat;
-
 	@media (max-width: 1100px) {
 		${({ dontShowOnSmallViewPort }) =>
-			dontShowOnSmallViewPort && `background: none;`}
+			dontShowOnSmallViewPort &&
+			`
+background: none;
+`}
 	}
 `;
 
@@ -80,12 +82,13 @@ export const Link = styled.p`
 	margin-right: 30px;
 	font-weight: ${({ active }) => (active === 'true' ? '700' : 'normal')};
 	cursor: pointer;
-
 	&:hover {
 		font-weight: bold;
 	}
+	&:last-of-type {
+		margin-right: 0;
+	}
 `;
-
 export const Dropdown = styled.div`
 	display: none;
 	position: absolute;
