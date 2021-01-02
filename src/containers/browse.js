@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import { SelectProfileContainer } from './profiles';
 import * as ROUTES from '../constants/routes';
 import { FirebaseContext } from '../context/firebase';
-import { Loading, Header, Card } from '../components';
+import { Loading, Header, Card, Player } from '../components';
 import { FooterContainer } from './footer';
 import logo from '../logo.svg';
 
@@ -61,8 +61,8 @@ export function BrowseContainer({ slides }) {
 									<Header.TextLink>{user.displayName} </Header.TextLink>
 								</Header.Group>
 								<Header.Group>
-									<Header.TextLink onClick={() => firebase.auth().signOut}>
-										Sign Out{' '}
+									<Header.TextLink onClick={() => firebase.auth().signOut()}>
+										Sign out
 									</Header.TextLink>
 								</Header.Group>
 							</Header.Dropdown>
@@ -101,10 +101,10 @@ export function BrowseContainer({ slides }) {
 							))}
 						</Card.Entities>
 						<Card.Feature category={category}>
-							{/**<Player>
-					<Player.Button />
-					<Player.Video src="/videos/bunny.mp4" />
-				</Player>**/}
+							<Player>
+								<Player.Button />
+								<Player.Video src='/videos/bunny.mp4' />
+							</Player>
 						</Card.Feature>
 					</Card>
 				))}
