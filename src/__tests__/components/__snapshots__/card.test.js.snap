@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> renders the <Card /> with and clicks the card feature 1`] = `
+<div
+  class="card__Group-orua2k-2 hSXOTh"
+>
+  <div
+    class="card__Container-orua2k-1 iUJFMG"
+  >
+    <p
+      class="card__Title-orua2k-0 eBFCFy"
+    >
+      Documentaries
+       
+    </p>
+    <div
+      class="card__Entities-orua2k-12 fKYur"
+    >
+      <div
+        class="card__Item-orua2k-13 bJqIkJ"
+        data-testid="tiger-king-item-feature"
+      >
+        <img
+          class="card__Image-orua2k-14 TchSL"
+          src="/images/series/documentaries/tiger-king/small.jpg"
+        />
+        <div
+          class="card__Meta-orua2k-11 kTErDT"
+        >
+          <p
+            class="card__SubTitle-orua2k-3 kNBXga"
+          >
+            Tiger King
+             
+          </p>
+          <p
+            class="card__Text-orua2k-4 fDuDeT"
+          >
+            Tiger King description
+             
+          </p>
+           
+        </div>
+         
+      </div>
+       
+    </div>
+     
+  </div>
+  <div
+    class="card__Container-orua2k-1 iUJFMG"
+  >
+    <p
+      class="card__Title-orua2k-0 eBFCFy"
+    >
+      Feel Good
+       
+    </p>
+    <div
+      class="card__Entities-orua2k-12 fKYur"
+    >
+      <div
+        class="card__Item-orua2k-13 bJqIkJ"
+        data-testid="juno-item-feature"
+      >
+        <img
+          class="card__Image-orua2k-14 TchSL"
+          src="/images/series/feel-good/juno/small.jpg"
+        />
+        <div
+          class="card__Meta-orua2k-11 kTErDT"
+        >
+          <p
+            class="card__SubTitle-orua2k-3 kNBXga"
+          >
+            Juno
+             
+          </p>
+          <p
+            class="card__Text-orua2k-4 fDuDeT"
+          >
+            Juno description
+             
+          </p>
+           
+        </div>
+         
+      </div>
+       
+    </div>
+     
+  </div>
+   
+</div>
+`;
+
+exports[`<Card /> renders the <Card /> with populated data 1`] = `
+<div
+  class="card__Group-orua2k-2 hSXOTh"
+>
+  <div
+    class="card__Container-orua2k-1 iUJFMG"
+  >
+    <p
+      class="card__Title-orua2k-0 eBFCFy"
+    >
+      Documentaries
+       
+    </p>
+    <div
+      class="card__Entities-orua2k-12 fKYur"
+    >
+      <div
+        class="card__Item-orua2k-13 bJqIkJ"
+      >
+        <img
+          class="card__Image-orua2k-14 TchSL"
+          src="/images/series/documentaries/tiger-king/small.jpg"
+        />
+        <div
+          class="card__Meta-orua2k-11 kTErDT"
+        >
+          <p
+            class="card__SubTitle-orua2k-3 kNBXga"
+          >
+            Tiger King
+             
+          </p>
+          <p
+            class="card__Text-orua2k-4 fDuDeT"
+          >
+            Tiger King description
+             
+          </p>
+           
+        </div>
+         
+      </div>
+       
+    </div>
+     
+  </div>
+  <div
+    class="card__Container-orua2k-1 iUJFMG"
+  >
+    <p
+      class="card__Title-orua2k-0 eBFCFy"
+    >
+      Feel Good
+       
+    </p>
+    <div
+      class="card__Entities-orua2k-12 fKYur"
+    >
+      <div
+        class="card__Item-orua2k-13 bJqIkJ"
+      >
+        <img
+          class="card__Image-orua2k-14 TchSL"
+          src="/images/series/feel-good/juno/small.jpg"
+        />
+        <div
+          class="card__Meta-orua2k-11 kTErDT"
+        >
+          <p
+            class="card__SubTitle-orua2k-3 kNBXga"
+          >
+            Juno
+             
+          </p>
+          <p
+            class="card__Text-orua2k-4 fDuDeT"
+          >
+            Juno description
+             
+          </p>
+           
+        </div>
+         
+      </div>
+       
+    </div>
+     
+  </div>
+   
+</div>
+`;
